@@ -1,0 +1,41 @@
+.footer {
+    margin-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer__credits {
+    color: white
+}
+
+.footer__button {
+    color: rgb(223, 195, 102);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(45, 45, 45);
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.footer__button:hover {
+    background-color: rgb(62, 62, 62)
+}
+
+.footer__button:active {
+    background-color: rgb(5, 5, 5);
+}
+
+.footer__link {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(251, 202, 53);
+    margin-inline: none;
+    font-weight: 700;
+}
+
+.footer__link:hover {
+    background-color: rgb(62, 62, 62);
+}

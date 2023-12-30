@@ -1,0 +1,103 @@
+.tableTour {
+    width: 100%;
+    margin: 0 auto;
+    color: rgb(243, 239, 228);
+}
+
+.tableTour__caption {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 2px solid white
+}
+
+.tableTour__rowHeader {
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.tableTour__cell {
+    border: 1px solid rgb(55, 54, 54);
+    border-width: 0 0 1px;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.tableTour__row:nth-child(odd) {
+    background-color: rgb(32, 32, 32)
+}
+
+.tableTour__row:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.tableTour__cell--available {
+    color: rgb(0, 139, 26)
+}
+
+.tableTour__cell--soldOut {
+    color: rgb(211, 0, 0)
+}
+
+.tableTour__cell--lastMinute {
+    color: rgb(245, 213, 0)
+}
+
+.tableTour__cell--strong {
+    font-weight: 700;
+}
+
+.tableTour__monthCell {
+    background-color: rgb(166, 152, 105);
+    color: rgb(34, 34, 34)
+}
+
+.tableDiscog {
+    width: 100%;
+    margin: 0 auto;
+    color: rgb(243, 239, 228);
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.tableDiscog__caption {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 2px solid white
+}
+
+.tableDiscog__rowHeader {
+    text-align: left;
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: rgb(220, 200, 101);
+    color: black;
+}
+
+.tableDiscog__rowHeader--space {
+    padding-left: 5px;
+}
+
+.tableDiscog__cell {
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.tableDiscog__row:hover {
+    background-color: rgb(144, 108, 17);
+}
+
+.tableDiscog__cell--strong {
+    font-weight: 700;
+}

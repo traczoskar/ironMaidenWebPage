@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(23, 23, 23);
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.light {
+    background-color: rgb(53, 53, 53);
+}

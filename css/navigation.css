@@ -1,0 +1,23 @@
+.navigation__list {
+    color: rgb(223, 195, 102);
+    font-weight: 700;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navigation__link {
+    display: inline-block;
+}
+
+.link {
+    background-color: rgb(36, 36, 36);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(251, 202, 53);
+    list-style-type: none;
+    margin-inline: none;
+}
+
+.link:hover {
+    background-color: rgb(62, 62, 62);
+}
